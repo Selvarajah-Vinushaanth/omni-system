@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Terminal, Activity, Server, Cpu, Command, ExternalLink, Shield, Wifi, WifiOff, HardDrive, Cpu as CpuIcon, FolderOpen, List, Info, X, FileText, Folder, ChevronRight, Trash2, BarChart3, Eye, Download, Image, Search, Plus, Upload, Edit, Copy, Move, Home, ArrowUp, ArrowLeft, RefreshCw, Grid, ListIcon, Monitor, Volume2, Power, Settings, Database, Zap, Play, Camera } from 'lucide-react';
 
 // NOTE: In production, change this to your actual server URL (e.g., ws://192.168.1.50:8001)
-const WS_URL = "ws://localhost:8001/ws/dashboard";
+const WS_URL = "wss://omni-backend-603531145334.asia-south1.run.app/ws/dashboard";
 
 // Helper function to format bytes
 const formatBytes = (bytes) => {
