@@ -1298,7 +1298,7 @@ export default function App() {
             )}
             <div className="flex items-center gap-2">
               <div className="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700 text-xs font-mono text-slate-400">
-                0.0.0.0:8001
+                0.0.0.0
               </div>
             </div>
           </div>
